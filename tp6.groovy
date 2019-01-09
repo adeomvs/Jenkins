@@ -57,6 +57,7 @@ node {
     ]){
 
       // Affichage des variables :
+	echo "Numero de build : ${currentBuild.number}"
  
     }
   } // end withCredential, les variables ne sont plus accessibles aprè}
