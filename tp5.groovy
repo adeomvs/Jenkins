@@ -3,6 +3,6 @@ node{
   echo "Hello ADEO"
  }
  stage('SHELL'){
-  env
+  sh 'env'
  }
 }
