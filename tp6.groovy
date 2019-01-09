@@ -24,8 +24,8 @@ node {
 node {
   stage('2- Print parameter'){
     sh '''
-       echo "Affichage du paramèe saisie par l'utilisateur"
-       echo "  valeur du paramèe : $missing_param"
+       echo "Affichage du parametre saisie par l'utilisateur"
+       echo "Valeur du parametre : ${cred}"
     '''
 
     // Pour répér la valeur dans le script
