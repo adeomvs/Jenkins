@@ -47,9 +47,9 @@ node {
   stage('3- Répétion des créntials'){
     withCredentials([
       usernamePassword(
-          credentialsId: 'missing_credential',
-          usernameVariable: "DEMO_USERNAME",
-          passwordVariable: "DEMO_PASS"
+          credentialsId: params.cred,
+          usernameVariable: "USERNAME",
+          passwordVariable: "PASS"
       ),
       file(
         credentialsId: 'missing_secret_file',
