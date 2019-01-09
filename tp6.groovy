@@ -52,7 +52,7 @@ node {
           passwordVariable: "PASS"
       ),
       file(
-        credentialsId: 'missing_secret_file',
+        credentialsId: 'f64a0326-0ee9-4034-906a-e114df72cfe7',
         variable: 'SECRET_FILE')
     ]){
 
