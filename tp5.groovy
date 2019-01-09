@@ -5,4 +5,7 @@ node{
  stage('SHELL'){
   sh 'env'
  }
+ stage('DIR'){
+  sh 'ls -alrt /root'
+ }
 }
