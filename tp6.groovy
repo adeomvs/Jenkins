@@ -58,6 +58,8 @@ node {
 
       // Affichage des variables :
 	echo "Numero de build : ${currentBuild.number}"
+	echo "Utilisateur/mdp : ${USERNAME}, ${PASS}"
+	echo "Path secret file : ${SECRET_FILE}"
  
     }
   } // end withCredential, les variables ne sont plus accessibles aprè}
